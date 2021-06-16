@@ -29,7 +29,7 @@
         }]
       }],
       [ 'OS!="win"', {
-        "libraries": [ "<(module_root_dir)/deps/build/lib/libsrt.a" ],
+        "libraries": [ "<(module_root_dir)/deps/build/lib64/libsrt.a" ],
         "include_dirs+": [
           "deps/build/include"
         ]
